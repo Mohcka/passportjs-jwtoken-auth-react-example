@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    // "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./public/javascript",
+    "baseUrl": "./",
+    "rootDir": "./frontend",
+    "incremental": true,
+    "jsx": "react"
+  },
+  "exclude": ["node_modules", "dist", "src", "test"]
+}
